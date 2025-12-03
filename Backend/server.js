@@ -16,8 +16,8 @@ const allowedOrigins = [
   process.env.VITE_FRONTEND_URL, // optional alternative env var
   "http://localhost:5173", // vite dev server origin
   "http://localhost:5000",
-  "https://erswelfareindia-phi.vercel.app",
-  "https://www.engwelfare.com", 
+  "https://engineerwelfare-yc2s.vercel.app/",
+  "https://www.engwelfare.com",
 ].filter(Boolean);
 
 const corsOptions = {
