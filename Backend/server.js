@@ -17,7 +17,7 @@ const allowedOrigins = [
   "http://localhost:5173", // vite dev server origin
   "http://localhost:5000",
   "https://engineerwelfare-yc2s.vercel.app",
-
+  "https://engineerwelfare-yc2s-git-main-erswelfareindia.vercel.app/",
   "https://www.engwelfare.com",
 ].filter(Boolean);
 
