@@ -1,6 +1,6 @@
 // Lightweight frontend API client for the backend
 const rawBase = import.meta.env.VITE_BACKEND_URL as string | undefined;
-const DEFAULT_BACKEND = "http://localhost:5000";
+const DEFAULT_BACKEND = "https://engineerwelfare.onrender.com/";
 const resolvedBase =
   rawBase && rawBase.trim() !== "" ? rawBase : DEFAULT_BACKEND;
 const BASE = resolvedBase.replace(/\/+$/, "");
